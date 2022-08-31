@@ -23,7 +23,7 @@
 }
 
 .lightCardBG {
-  @apply bg-[#F0F2FA] hover:bg-[#f0f2fabd]
+  @apply bg-[#f0f2fa7b] hover:bg-[#f0f2fa]
 }
 
 .light-BG{

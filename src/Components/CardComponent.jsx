@@ -14,13 +14,13 @@ const CardComponent = ({icons, colorProp,font, before, themeBG, themeCardBG, the
             <p className={`${themeText} opacity-50`}>@nathanf</p>
         </div>
         <div className={`text-center mt-2 `}>
-            <h3 className={`bg-bg- text-6xl font-bold ${themeText}`}>1987</h3>
+            <h3 className={`bg-bg- text-5xl font-bold ${themeText}`}>1987</h3>
             <p className={`font-medium uppercase tracking-[0.3rem] ${themeText} opacity-50`}>FOLLOWERS</p>
-            <div className='flex justify-center items-center font-bold mt-3 mb-10 text-green-500'>
-                <span >
+            <div className='flex justify-center items-center font-bold mt-5 mb-5 text-green-500 '>
+                <span className='text-sm'>
                     < BiUpArrow style={{color: 'green'}}/>
                 </span>
-                <p className='text-green-500'>12 Today</p>
+                <p className='text-green-600 text-xs'>12 Today</p>
             </div>
         </div>
     </div>)

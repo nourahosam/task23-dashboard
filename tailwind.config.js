@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       container:{
         center: true,
-        padding: '7rem'
+        padding: '7rem',
+        fontFamily: 'https://fonts.google.com/specimen/Inter'
       },
       colors: {
         bg: {
