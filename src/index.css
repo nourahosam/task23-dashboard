@@ -3,5 +3,29 @@
 @tailwind utilities;
 
 .card{
-  @apply m-2 rounded before:content-[""] before:w-full before:bg-red-700 before:absolute relative before:h-1 overflow-hidden
+  @apply m-2 rounded before:content-[""] before:w-full  before:absolute relative before:h-1 overflow-hidden
+}
+
+.dark-BG{
+  @apply bg-[#1E202A] 
+}
+.darkText{
+  @apply text-[#FFFFFF]
+}
+
+.darkCardBG{
+  @apply bg-[#252A41] hover:bg-[#444a61]
+
+}
+
+.lightText {
+ @apply text-black
+}
+
+.lightCardBG {
+  @apply bg-[#F0F2FA] hover:bg-[#f0f2fabd]
+}
+
+.light-BG{
+  @apply 	bg-[#FFFFFF]
 }

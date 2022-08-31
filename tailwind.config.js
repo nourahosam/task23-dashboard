@@ -8,7 +8,15 @@ module.exports = {
       container:{
         center: true,
         padding: '7rem'
-      }
+      },
+      colors: {
+        bg: {
+          DEFAULT: '#000000',
+          youtube: '#FF0000',
+          twitter: '#00acee',
+          facebook: '#3b5998',
+        }
+      },
     },
   },
   plugins: [],
